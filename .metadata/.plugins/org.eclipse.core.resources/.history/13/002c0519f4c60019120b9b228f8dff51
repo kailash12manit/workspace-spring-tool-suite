@@ -1,0 +1,5 @@
+package com.kailash.pktech;
+
+public interface Vehicle {
+	drive();
+}

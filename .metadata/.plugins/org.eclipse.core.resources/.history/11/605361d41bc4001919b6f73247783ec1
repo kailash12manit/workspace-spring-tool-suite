@@ -1,0 +1,17 @@
+package com.example.demo;
+
+public class DemoSpringBoot {int var;
+
+public int getVar() {
+	return var;
+}
+
+public void setVar(int var) {
+	this.var = var;
+}
+
+public demo_SpBoot(){
+	System.out.println("welcome to Spring Boot");
+}
+
+}

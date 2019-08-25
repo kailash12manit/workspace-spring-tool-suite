@@ -1,0 +1,7 @@
+package com.kailash.pktech;
+
+public class Tyre {
+	private String brand;
+	
+
+}

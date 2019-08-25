@@ -1,0 +1,14 @@
+package com.kailash.pktech;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Car implements Vehicle{
+	
+	private Tyre tyre;
+	
+
+	public void drive() {
+		System.out.println("Car chal rahi h...");
+	}
+}

@@ -1,0 +1,20 @@
+package com.kailash.SpringAnno;
+
+public class Samsung {
+	
+	MobileProcessor cpu;
+	
+	public MobileProcessor getCpu() {
+		return cpu;
+	}
+
+	public void setCpu(MobileProcessor cpu) {
+		this.cpu = cpu;
+	}
+
+	public void config() {
+		System.out.println("Octa core 4 , 6GB RAM, 12 MP Camera");
+		cpu.process();
+	}
+
+}

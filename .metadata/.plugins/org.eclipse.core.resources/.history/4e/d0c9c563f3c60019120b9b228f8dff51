@@ -1,0 +1,8 @@
+package com.kailash.pktech;
+
+public class Car {
+	
+	public void drive {
+		System.out.println("Car chal rahi h...";
+	}
+}

@@ -1,0 +1,11 @@
+package com.kailash.SpringAnno;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+	public Samsung getPhone() {
+		return new Samsung();
+	}
+
+}

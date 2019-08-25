@@ -1,0 +1,18 @@
+package com.kailash.pktech;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        //Vehicle obj = new Bike();
+        
+    	Vehicle obj = getBean("Vehicle");
+        
+        obj.drive();
+       
+    }
+}

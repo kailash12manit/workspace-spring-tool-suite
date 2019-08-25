@@ -1,0 +1,22 @@
+package com.kailash.SpringAnno;
+
+import java.text.Annotation;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotatedBeanDefinitionReader;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+//        Samsung s7 = new Samsung();
+//        s7.config();
+    	ApplicationContext context = new AnnotationConfigApplicationContext(); 	
+    	
+    }
+}

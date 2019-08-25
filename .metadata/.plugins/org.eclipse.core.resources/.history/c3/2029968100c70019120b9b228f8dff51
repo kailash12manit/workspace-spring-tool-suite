@@ -1,0 +1,10 @@
+package com.kailash.SpringAnno;
+
+public class Samsung {
+	
+	public void config() {
+		System.out.println("Octa core 4 , 6GB RAM, 12 MP Camera");
+		
+	}
+
+}
